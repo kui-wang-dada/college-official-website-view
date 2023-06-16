@@ -1,5 +1,25 @@
+/* 顶部导航区域 */
+.header-nav {
+  padding: 10px 24px;
+  background: #fcfdf7;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav ul {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.header-nav ul li {
+  margin-left: 40px;
+  cursor: pointer;
+}
+.header-nav ul li a {
+  margin-right: 10px;
+}
+/* banner区域 */
 .research-banner {
-  background: url("./img/bg.png");
+  background: url("../img/research/bg.png");
   background-size: 100% 100%;
 }
 
